@@ -1,19 +1,21 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: #fff;
+  background-color: lightgray;
 }
 
 h1{
+
   text-align: left;
   font-family: sans-serif;
   padding-top:1rem ;
   margin:0;
+
 }
 
 header{
   
-  padding: 1rem 0 2rem 1rem;
+  padding: 1rem 0 1rem 1rem;
   border-bottom: solid;
   border-width: 0.1rem;
   border-color: white;
@@ -26,88 +28,108 @@ header{
 }
 
 header a{
+
   font-weight: bold;
   font-size: large;
   text-decoration: none;
   color: black;
   font-weight: 1px;
   background-color: #fff;
+  padding-left: 1rem;
   
 }
 
 header a:hover{
+
   color: darkslategray;
+
 }
 
-h4{
-  color: #9fa1a9;
-}
 .img-icon{
+
   border-radius: 50%;
   background-color: #fff;
+
 }
 
 .articles{
+
   align-items: center;
-  ;
+
 }
 .articles article{
+
   padding: 0.5rem;
   font-family: sans-serif;
   font-size: 70%;
   border-bottom: solid;
-  
-  border-color: #faebd7;
+  border-radius: 0.5rem;
+  border-color: lightgray;
   margin: 0.2% auto auto 40%;
   background-color: #fff;
   vertical-align: middle;
   float:none;
   justify-content: left;
   border-style: solid;
-  border-color: gray;
   border-width: 0.1rem;
- 
-
   
 }
 
 h3{
-  padding-bottom: 0.5rem;
+
+  padding: 0.5rem;
+  border-radius: 10%;
+
   
 }
 
+h4{
+
+  color: #9fa1a9;
+
+}
+
 h5{
+
   color: #9fa1a9;
   font-style: normal;
   padding-bottom: 0.5rem;
   background-color: #fff;
+
 }
 
 .grid-container{
+
   display: grid;
-  grid-template-columns: 70%;
+  grid-template-columns: 75%;
   grid-row-gap: 0.5rem;
   grid-template-areas: "content";
+
 }
 
 .grid-item{
+
   grid-area: content;
+
 }
 
 .articles article a{
+
   text-decoration: none;
   color: black;
   background-color: #FFFFFF;
+
 }
 
 .articles article h3{
+
   color: black;
   background-color: #FFFFFF;
-  /* display: inline-table; */
   
 }
 
 .articles article:nth-child(n){
-  background-color: #FFFFFF;
+
+  background-color: #fff;
   
 }
