@@ -1,5 +1,5 @@
 import axios from 'axios';
-/* eslint-disable */
+
 export const getPosts = async (limit, after) => {
   const data = await axios({
     method: 'get',
